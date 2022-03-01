@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    background-color: beige;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 20%;
+    /* border-right: 2px solid beige; */
+    background-color: aqua;
+
+}
+
+.sidebar>ul>a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidebar>ul{
+    padding: 20px 0px;
+    list-style-type: none;  
+}
+
+.sidebar>ul>a>li{
+    padding:20px;
+    display: flex;
+    align-items: center;
+}
+.sidebar>ul>a>li:hover{
+background-color: antiquewhite;
+}
+.sidebar>ul>a>li>span{
+    padding-left: 10px;
+}
+
+.selected{
+    color:red;
+}
